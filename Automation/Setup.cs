@@ -2,7 +2,7 @@
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 
-namespace SeleniumTests
+namespace SeleniumProject.Automation
 {
     [TestFixture]
     public class Setup
@@ -13,7 +13,7 @@ namespace SeleniumTests
         public void SetUp()
         {
             var options = new ChromeOptions();
-            options.AddArgument("--start-maximized"); 
+            options.AddArgument("--start-maximized");
             driver = new ChromeDriver(options);
         }
 
