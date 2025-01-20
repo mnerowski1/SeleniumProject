@@ -7,7 +7,7 @@ namespace SeleniumProject.Automation
     [TestFixture]
     public class Setup
     {
-        private IWebDriver driver = null!;
+        protected IWebDriver driver;
 
         [SetUp]
         public void SetUp()
