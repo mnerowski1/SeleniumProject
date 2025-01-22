@@ -18,7 +18,7 @@ namespace SeleniumProject.Automation
         }
 
         [Test]
-        public void OpenGoogleTest()
+        public void OpenPage()
         {
             driver.Navigate().GoToUrl("https://demoqa.com/");
             Assert.That(driver.Title, Is.EqualTo("DEMOQA"));

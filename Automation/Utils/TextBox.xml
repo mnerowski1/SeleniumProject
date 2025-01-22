@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Users>
+	<User>
+		<UserName>John Doe</UserName>
+		<Email>johndoe@gmail.com</Email>
+		<CurrentAddress>Los Angeles</CurrentAddress>
+		<PermanentAddress>New York</PermanentAddress>		
+	</User>
+</Users>
+

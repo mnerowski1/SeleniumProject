@@ -17,7 +17,7 @@ namespace SeleniumProject.Automation.Tests.Elements
         [Test]
         public void TestOpenElementsMenu()
         {
-            OpenGoogleTest();
+            OpenPage();
             elementsPage.ClickElementsMenu();
         }        
     } 
